@@ -1,0 +1,3 @@
+<p [ngClass]="status ? 'display' : 'none'">p1</p>
+<p [ngClass]="!status ? 'display' : 'none'">p2</p>
+<button (click)="status=false">Click!</button>
